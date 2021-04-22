@@ -1,0 +1,6 @@
+1.Unzip the file with all folders
+2.Open index.html
+3.Click login
+
+
+Internet required.

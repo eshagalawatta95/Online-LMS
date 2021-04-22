@@ -1,0 +1,215 @@
+<link href="css/bootstrap3.0.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link href="css/main.css" rel="stylesheet">
+<script src="js/mian.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<body class="home">
+    <div class="container-fluid display-table">
+        <div class="row display-table-row">
+            <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
+                <div class="logo">
+                    <a hef="Dashboard.html"><br>
+                      <h3>NIBM-LMS </h3><br>
+                    </a>
+                </div>
+                <div class="navi">
+                    <ul>
+                        <li><a href="NoItem.html"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Profile</span></a></li>
+                        <li><a href="NoItem.html"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Settings</span></a></li>
+                        <li ><a href="MainScreen.html"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Dashboard</span></a></li>
+                        <li><a href="NoItem.html"><i class="fa fa-tasks" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Modules</span></a></li>
+                        <li ><a href="Dashboard.html"><i class="fa fa-pie-chart" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Lecture Slides</span></a></li>
+                        <li><a href="NoItem.html"><i class="fa fa-bar-chart" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Other Materials</span></a></li>
+                        <li><a href="NoItem.html"><i class="fa fa-tasks" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Assignments</span></a></li>
+                        <li><a href="LectureSchedule.html"><i class="fa fa-calendar" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Lecture Schedule</span></a></li>
+                        <li class="active"><a href="Exams.html"><i class="fa fa-check" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Exams</span></a></li>
+                        <li><a href="NoItem.html"><i class="fa fa-book" aria-hidden="true"></i><span class="hidden-xs hidden-sm">My Library</span></a></li>
+                        <li><a href="NoItem.html"><i class="fa fa-envelope" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Contats</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-11 display-table-cell v-align">
+                <!--<button type="button" class="slide-toggle">Slide Toggle</button> -->
+                <div class="row">
+                    <header>
+                        <div class="col-md-7">
+                            <nav class="navbar-default pull-left">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="offcanvas" data-target="#side-menu" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                            </nav>
+                            <div class="search hidden-xs hidden-sm">
+                                <input type="text" placeholder="Search" id="search">
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="header-rightside">
+                                <ul class="list-inline header-top pull-right">
+                                    <li class="hidden-xs"><a href="#" class="add-project" data-toggle="modal" data-target="#add_project">Degree: B.Sc in ITB</a></li>
+                                                                   
+                                    <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                                    <li>
+                                        <a href="#" class="icon-info">
+                                            <i class="fa fa-bell" aria-hidden="true"></i>
+                                            <span class="label label-primary">3</span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="Images/usr.jpg" alt="user">
+                                            <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <div class="navbar-content">
+                                                    <span>Admin</span>
+                                                    <br><br><a href="index.html" ><span>Logout</span></a>
+                                                    <p class="text-muted small">
+                                                      
+                                                    </p>
+                                                    <div class="divider">
+                                                    </div>
+                                                    <a href="#" class="view btn-sm active">View Profile</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+                <div class="user-dashboard">
+                    <h3>Hello, Admin - Exams</h3><br>
+          
+                        <div class="row col-md-12 custyle">
+                            <h4><u>Exam Schedule</u></h4>
+                        <table class="table table-striped custab" style="margin: 0px !important;">
+                            <thead style="background-color: #5584ff; color: white;">
+                            <tr>
+                                <th>Subject</th>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th >Duration</th>
+                            </tr>
+                        </thead>
+                                <tr>
+                                    <td>DIP</td>
+                                    <td>2021-04-01</td>
+                                    <td>9 P.M.</td>
+                                    <td>2 hours</td>
+                                   
+                                </tr>
+                                <tr>
+                                    <td>PM</td>
+                                    <td>2021-04-01</td>
+                                    <td>9 P.M.</td>
+                                    <td>1 hours</td>
+                                   
+                                <tr>
+                                    <td>SCW</td>
+                                    <td>2021-04-01</td>
+                                    <td>9 P.M.</td>
+                                    <td>2 hours</td>
+                                  
+                                </tr>
+                                
+                               
+                        </table>
+                        </div>
+                        <br><br><br>
+                        <div class="row col-md-12 custyle">
+                            <h4 style="margin: 4% 0 10;"><u>Exam Results</u></h4>
+                            <table class="table table-striped custab" style="margin: 0px !important;">
+                                <thead style="background-color: #5584ff; color: white;">
+                                <tr>
+                                    <th rowspan="2">Module</th>
+                                    <th rowspan="2">Module Title</th>
+                                    <th colspan="3" style="text-align: center;">Marks</th>
+                                    <th rowspan="2">Grade</th>
+                                    <th rowspan="2">Credits</th>
+                                </tr>
+                                <tr>
+                                    
+                                    
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>Module Mark</td>
+                                    
+                                    
+                                </tr>
+                            </thead>
+                                    <tbody><tr>
+                                        <td>NIB204COM</td>
+                                        <td>Operational Research</td>
+                                        <td>CW1-95</td>
+                                        <td>Ex-97</td>
+                                        <td>96</td>
+                                        <td>P</td>
+                                        <td>20</td>
+                                       
+                                    </tr>
+                                    <tr>
+                                        <td>NIB246COM</td>
+                                        <td>Computer Simulation</td>
+                                        <td>CW1-80</td>
+                                        <td>CW2-94</td>
+                                        <td>90</td>
+                                        <td>P</td>
+                                        <td>20</td>
+                                       
+                                    </tr><tr>
+                                        <td>NIB219COM</td>
+                                        <td>Computer Technology</td>
+                                        <td>CW-87</td>
+                                        <td>-</td>
+                                        <td>87</td>
+                                        <td>P</td>
+                                        <td>20</td>
+                                      
+                                    </tr>
+                                    
+                                   
+                            </tbody></table>
+                        </div>
+        </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Modal -->
+    <div id="add_project" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header login-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h4 class="modal-title">Add Program</h4>
+                </div>
+                <div class="modal-body">
+                            <input type="text" placeholder="Title" name="name">
+                            <input type="text" placeholder="Year" name="mail">
+                            <input type="text" placeholder="Classifications" name="passsword">
+                            <textarea placeholder="Desicrption"></textarea>
+                    </div>
+                <div class="modal-footer">
+                    <button type="button" class="cancel" data-dismiss="modal">Close</button>
+                    <button type="button" class="add-project" data-dismiss="modal">Save</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
